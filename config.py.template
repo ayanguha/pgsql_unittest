@@ -1,0 +1,3 @@
+secret_id = "your_secret_name"
+profile_name = "your_profile_name"
+region_name = 'your_region_name'
