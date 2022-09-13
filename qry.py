@@ -23,3 +23,9 @@ response1 = rds_data.execute_statement(
 #recs is a list (of rows returned from Db)
 recs = response1['records']
 print(recs)
+
+response = client.get_secret_value(
+    SecretId='string',
+    VersionId='string',
+    VersionStage='string'
+)
